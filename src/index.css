@@ -7,7 +7,87 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#profile_img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.links-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.link-anchor{
+  background-color: #EAECF0;
+  width: 100%;
+  padding: 10px;
+  /* gap: 8px; */
+  margin: 10px auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+
+}
+.main-container{
+  margin:30px auto;
+  width: 80%;
+  padding: 0 20px;
+}
+.profile-section{
+  margin-bottom: 15px;
+}
+.profile-name{
+  font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #101828;
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+.footer
+{
+  margin-top: 30px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.font-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+
+}
+.icons{
+  width: 20px;
+  height: 20px;
+  
+}
+span{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Zuri-logo{
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+@media (max-width:400px){
+  .footer-icons{
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+  }
 }
